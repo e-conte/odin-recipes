@@ -1,6 +1,7 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
+    margin: 0;
 }
 
 h1,
@@ -8,7 +9,11 @@ h2 {
     font-size: 22px;
     font-weight: 800;
     color: hsl(48, 80%, 22%);
-    text-align: center;
+
+}
+h1  {
+    background-color: hsl(36, 100%, 90%);
+    
 }
 
 h2 {
@@ -18,5 +23,17 @@ h2 {
 
 li {
     font-size: 12px;
-    background-color: hsl(60, 100%, 50%);
+    list-style: none;
+    display: block;
+    padding: 6px;
+    margin: 3px 0;
+    background-color: hsl(36, 100%, 90%);
+    
+}
+
+.index  {
+    width: 300px;
+    margin: 12px auto;
+    display: block;
+    text-align: center;
 }
